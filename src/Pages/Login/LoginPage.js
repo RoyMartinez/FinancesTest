@@ -11,7 +11,7 @@ const LoginPage = ({ handleSubmit, onChange, state }) => {
         <>
             <div className="container">
                 <img src={Logo} alt="imagen de fondo" className="Logo" />
-                <p className="title">Bienvenido</p>
+                <p className="title">Bienvenido al cambio de ramas</p>
                 <form onSubmit={handleSubmit} autoComplete="off">
                     <div className="inputGroup">
                         <label htmlFor="email" className="label">Correo electrónico:</label><br />
